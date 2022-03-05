@@ -19,4 +19,8 @@ public class EnemyAI : MonoBehaviour
     {
         _alive = true;
     }
+       private void End()
+    {
+        _alive = False;
+    }
 }
