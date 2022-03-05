@@ -1,0 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+public class EnemyAI : MonoBehaviour
+{
+   
+    public float speed = 5.0f;
+    public float obstacleRande = 5.0f;
+    public bool _alive = true;
+
+    
+    [SerializeField]
+    private GameObject[] _fireballsPrefab;
+    private GameObject _fireball;
+
+    private void Start()
+    {
+        _alive = true;
+    }
+}
